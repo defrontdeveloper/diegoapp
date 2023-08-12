@@ -17,19 +17,19 @@ const Navbar = () => {
 
   const routes = [
     {
-      path: '/',
+      path: '/diegoapp/',
       name: 'Inicio'
     },
     {
-      path: '/nosotros',
+      path: '/diegoapp/nosotros',
       name: 'Nosotros'
     },
     {
-      path: '/galeria',
+      path: '/diegoapp/galeria',
       name: 'Galeria'
     },
     {
-      path: '/contacto',
+      path: '/diegoapp/contacto',
       name: 'Contacto'
     }
   ];

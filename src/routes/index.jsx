@@ -28,7 +28,7 @@ export const renderRoutes = (routes) => {
 
 export const routes = [
   {
-    path: "/login",
+    path: "/diegoapp/login",
     element: lazy(async () => await import("../pages/Login"))
   },
   {
@@ -36,19 +36,19 @@ export const routes = [
     guard: lazy(async () => await import("../guards/AuthGuard")),
     children: [
       {
-        path: "/",
+        path: "/diegoapp/",
         element: lazy(async () => await import("../pages/Home")),
       },
       {
-        path: "/nosotros",
+        path: "/diegoapp/nosotros",
         element: lazy(async () => await import("../pages/About")),
       },
       {
-        path: "/galeria",
+        path: "/diegoapp/galeria",
         element: lazy(async () => await import("../pages/Gallery")),
       },
       {
-        path: "/contacto",
+        path: "/diegoapp/contacto",
         element: lazy(async () => await import("../pages/Contact")),
       },
     ],
