@@ -1,0 +1,61 @@
+.contact {
+   background-image: url('../assets/people/contact-us.jpeg');
+   
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   padding: 4rem 0;
+   height: auto;
+
+   .contact-background {
+    width: 100%;
+    height: -webkit-fill-available;
+    background: #00000014;
+    position: absolute;
+    padding: 4rem 0;
+    top: 0;
+   }
+   .row {
+    position: relative;
+   }
+   p {
+    margin: 2rem;
+   }
+
+   form {
+    width: 100%;
+    input {
+      height: 45px;
+      margin-bottom: 1rem;
+    }
+    textarea {
+      resize: none;
+    }
+    button {
+      margin-top: 2rem;
+      float: right;
+      background: #F16F2B;
+      color: #fff;
+      padding: 1rem 2rem;
+    }
+  }
+  @media screen and (min-width: 700px) {
+    height: 700px;
+    p {
+      margin: 1.5rem 0 2rem 0;
+     }
+  }
+}
+
+.conatc-info {
+  padding: 7rem 0;
+  text-align: center;
+  margin: auto;
+}
+.contact-map {
+  margin-bottom: 7rem;
+}

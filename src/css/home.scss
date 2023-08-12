@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.home-banner {
+  margin-top: 4rem;
+  text-align: center;
+  h1 {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-shadow: 1px 1px #d1d1d1;
+  }
+  h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: #F16F2B;
+    margin-top: 1rem;
+    line-height: 1.3;
+  }
+  img {
+    margin: auto;
+    width: 400px;
+  }
+
+  @media screen and (min-width: 900px) {
+    text-align: left;
+    h1 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    img {
+      width: auto;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    h1 {
+      font-size: 50px;
+    }
+    h3 {
+      letter-spacing: 3px;
+    }
+  }
+}
+
+.home-ribon {
+  background-color: #252525;
+  color: #fff;
+  padding: 1.5rem 0 2rem 0;
+  .is-column {
+    align-items: center;
+    p {
+      margin: 1rem 0 0;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 200;
+      b {
+        color: #ed0d09;
+      }
+    }
+    img {
+      width: 80px;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    .is-column {
+      p {
+        font-size: 20px;
+      }
+      img {
+        width: initial;
+      }
+    }
+  }
+}
+
+.home-information {
+  padding: 7rem 0;
+  p {
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+    b {
+      font-weight: 500;
+    }
+  }
+  .col-4-md {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 400px;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.home-process {
+  background-color: #252525;
+  padding: 7rem 0;
+  .title-2 {
+    margin-bottom: 2.5rem;
+    h2 {
+      color: #fff;
+    }
+  }
+  .process-title {
+    color: #c0c0c0;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+  }
+  img {
+    border-radius: 4px 4px 0 0;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  p {
+    color: #c0c0c0;
+    font-weight: 200;
+    font-size: 16px;
+    margin: 0;
+    b {
+      font-weight: 500;
+    }
+  }
+  .gap-2 {
+    gap: 2rem 0;
+  }
+  @media screen and (min-width: 900px) {
+    img {
+      height: auto;
+      width: 100%;
+      object-fit: initial;
+    }
+    .gap-2 {
+      gap: initial;
+    }
+  }
+}
+
+.home-benefits {
+  padding: 7rem 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+  img {
+    position: absolute;
+    bottom: -20px;
+    display: none;
+  }
+  
+  .benefit-option {
+    align-items: baseline;
+    p {
+      font-weight: 200;
+      font-size: 16px;
+      b {
+        font-weight: 500;
+      }
+    }
+  }
+  @media screen and (min-width: 900px) {
+    padding: 7rem 0 0 0;
+    img {
+      display: block;
+    }
+  }
+}
+
+.home-product {
+  text-align: center;
+  padding: 7rem 0;
+  img {
+    height: 220px;
+    margin: 3rem 0;
+  }
+  p {
+    font-weight: 200;
+    font-size: 17px;
+    margin: 0;
+  }
+  @media screen and (min-width: 599px) {
+    .col-7 {
+      margin: auto;
+    }
+  }
+}
